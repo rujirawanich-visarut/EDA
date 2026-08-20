@@ -1,0 +1,59 @@
+{
+  "domain": "Petrochemical Cracking & Refining",
+  "sensors": {
+    "Sensor_Health_Index": {
+      "role": "diagnostic_probe",
+      "type": "health_index",
+      "degradation_threshold": 0.20,
+      "description": "Composite measurement reliability and calibration status"
+    },
+    "Vibration_Level_mm_s": {
+      "role": "mechanical_health",
+      "type": "accelerometer",
+      "degradation_threshold": 7.0,
+      "description": "Compressor & reactor bearing vibration intensity"
+    }
+  },
+  "process_signals": {
+    "Reactor_Temp_C": {
+      "role": "thermal_state",
+      "description": "Core cracking furnace pyrometer reading"
+    },
+    "Reactor_Pressure_Bar": {
+      "role": "pressure_state",
+      "description": "Reactor chamber vessel pressure transducer"
+    },
+    "Feedstock_Flow_m3h": {
+      "role": "input_feed",
+      "description": "Main hydrocarbon cracking feedstock flow rate"
+    },
+    "Natural_Gas_m3h": {
+      "role": "fuel_gas",
+      "description": "Fuel gas consumption rate for furnace heating"
+    },
+    "Valve_Opening_Percent": {
+      "role": "actuator_position",
+      "description": "Main throttle control valve aperture percentage"
+    },
+    "Catalyst_Age_Days": {
+      "role": "catalyst_state",
+      "description": "Cumulative operating days of active cracking catalyst bed"
+    }
+  },
+  "kpis": {
+    "Product_Yield_Tons": {
+      "role": "primary_output_kpi",
+      "description": "Finished product output mass yield"
+    },
+    "Energy_Intensity": {
+      "role": "efficiency_kpi",
+      "description": "Specific energy consumed per metric ton of product yield"
+    }
+  },
+  "environmental": {
+    "Ambient_Temp_C": {
+      "role": "atmospheric_condition",
+      "description": "Outside ambient air temperature surrounding plant units"
+    }
+  }
+}

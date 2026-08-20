@@ -1,0 +1,44 @@
+{
+  "Product_Yield_Tons": {
+    "lsl": 80.0,
+    "usl": 120.0,
+    "target": 100.0,
+    "unit": "Tons"
+  },
+  "Energy_Intensity": {
+    "lsl": 3.0,
+    "usl": 5.5,
+    "target": 4.2,
+    "unit": "GJ/Ton"
+  },
+  "Reactor_Temp_C": {
+    "lsl": 740.0,
+    "usl": 890.0,
+    "target": 815.0,
+    "unit": "°C"
+  },
+  "Reactor_Pressure_Bar": {
+    "lsl": 25.0,
+    "usl": 38.0,
+    "target": 31.5,
+    "unit": "Bar"
+  },
+  "Feedstock_Flow_m3h": {
+    "lsl": 420.0,
+    "usl": 680.0,
+    "target": 550.0,
+    "unit": "m3/h"
+  },
+  "Sensor_Health_Index": {
+    "lsl": 0.60,
+    "usl": 1.0,
+    "target": 0.95,
+    "unit": "Ratio"
+  },
+  "Vibration_Level_mm_s": {
+    "lsl": 0.0,
+    "usl": 7.0,
+    "target": 3.0,
+    "unit": "mm/s"
+  }
+}
