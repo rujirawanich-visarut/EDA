@@ -87,6 +87,7 @@ The system decouples computation from generative reasoning into a **Two-Tier Epi
 ## 🛡️ Pre-Execution Guard: Why Epistemic EDA Before ML & Optimization?
 
 Consider an industrial plant dataset such as [Petrochemical Process Optimization (10,000 rows)](https://www.kaggle.com/datasets/masoudfazli/petrochemical-process-optimization-and-maintenance/data) where you want to build **Real-Time Optimization** or implement the **Potential Use Cases** suggested in the Kaggle Data Card:
+Citation: Fazli, M. (2026). Petrochemical Process Optimization & Maintenance [Data set]. https://www.kaggle.com/datasets/masoudfazli/petrochemical-process-optimization-and-maintenance/data
 
 ```text
 [ Kaggle Data Card: High-Level Intent ] ──► (Theoretical Wish List)

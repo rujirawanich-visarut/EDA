@@ -85,6 +85,8 @@
 ## 🛡️ Pre-Execution Guard: ทำไมต้องมี EDA ก่อนทำ ML & Real-Time Optimization?
 
 สมมติว่าคุณมีชุดข้อมูลโรงงานปิโตรเคมี [Petrochemical Process Optimization (10,000 แถว)](https://www.kaggle.com/datasets/masoudfazli/petrochemical-process-optimization-and-maintenance/data) และต้องการสร้าง **Real-Time Optimization** หรือทำตาม **Potential Use Cases** บน Kaggle Data Card:
+Citation: Fazli, M. (2026). Petrochemical Process Optimization & Maintenance [Data set]. https://www.kaggle.com/datasets/masoudfazli/petrochemical-process-optimization-and-maintenance/data
+
 
 ```text
 [ Kaggle Data Card: สิ่งที่อยากได้ ] ──► (เป้าหมายเชิงทฤษฎี / Wish List)
