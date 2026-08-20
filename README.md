@@ -1,4 +1,4 @@
-# Sovereign Epistemic EDA — The Cognitive Engine for Industrial Data Understanding
+# Epistemic EDA — The Cognitive Engine for Industrial Data Understanding
 
 > **"You cannot optimize what you do not understand, and you cannot automate what you have not stabilized."**  
 > — *ทำให้ 45 นาทีแรกของการทำ EDA เหลือ 0.83 วินาที — แล้วใช้ expertise ของคุณกับส่วนที่ AI ทำไม่ได้: ตัดสินใจ*
